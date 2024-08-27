@@ -58,6 +58,7 @@ public class calculateInterest1 {
 
         // Display result rounded to three decimal places
         System.out.printf("%.3f\n", interestAmount);
+        scanner.close();
     }
 
     public static double calculateInterest(Account account, int noOfYears) {
